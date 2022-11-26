@@ -6,8 +6,8 @@ namespace JWT_ASP.NetCore_WebAPI.Repositories
   {
     public static List<User> Users = new List<User>()
     {
-      new User() { UserName = "admin", Password= "admin", Role="Administrator", EmailAddress = "admin@test.com" },
-      new User() { UserName = "test", Password= "test", Role="Standard", EmailAddress = "test@test.com" }
+      new User() { UserName = "admin", Password= "admin", Role="Administrator", EmailAddress = "admin@test.com", IsActive = true },
+      new User() { UserName = "test", Password= "test", Role="Standard", EmailAddress = "test@test.com", IsActive = true }
     };
   }
 }
